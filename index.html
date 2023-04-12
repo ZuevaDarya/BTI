@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap">
+    <title>Главная</title>
+</head>
+
+<body>
+    <!--Шапка сайта-->
+    <header class="header">
+        <!--Верхняя часть шапки с краткой информацией-->
+        <div>
+            <ul class="header__info">
+                <li id="phone" class="header__link">+7 (4862) 40-99-88</li>
+                <li class="header__link">Пн-Пт 8:30-17:30 | Пт 8:30-16:15 | Сб-Вс выходной</li>
+                <li class="header__link">nedvijimost@orel.ru</li>
+                <li class="header__link">г. Орёл, ул. Ленина, 25</li>
+            </ul>
+        </div>
+
+        <!--Нижняя часть шапки - логотип и меню навигации-->
+        <div class="header__logo-and-links">
+            <!--Логотип и слоган-->
+            <div class="header__logo-and-label">
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.png" alt="Логотип"></a>
+                </div>
+                <div class="header__label">
+                    <div class="header__title">Межрегиональное БТИ</div>
+                    <div class="header__slogan">Надежность, проверенная временем</div>
+                </div>
+            </div>
+            
+            <!--Навигация-->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__link"><a href="#main-page">Главная</a></li>
+                    <li class="nav__link"><a href="#services">Услуги</a></li>
+                    <li class="nav__link"><a href="#request">Подать заявку</a></li>
+                    <li class="nav__link"><a href="#branches">Филиалы</a></li>
+                    <li class="nav__link"><a href="#info-organization">О БТИ</a></li>
+                    <li class="nav__link"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div id="main-page">
+            <!--Объявления-->
+            <section class="news">
+                <div class="news__title">
+                    <h1>Объявление</h1>
+                </div>
+                <p class="news__text">
+                    В соответствии с приказом Департамента экономического развития и инвестиционной
+                    деятельности Орловской
+                    области от 14 апреля 2020 №437 «О разрешении на осуществление деятельности» БУ ОО МР «БТИ» разрешено
+                    осуществлять деятельность на территории Орловской области. В связи с неблагоприятной
+                    эпидемиологической
+                    ситуацией вводится ограничения в работе учреждения.
+                </p>
+                <p class="news__text news__text_bold">
+                    Для проведения консультации со специалистами и удаленного оформления
+                    заказов можно обратиться:
+                </p>
+                <ul class="news__list">
+                    <li class="news__link">
+                        для физических лиц по электронной почте: <a href="#"
+                            class="news__mail-link">nedvijimost@orel.ru</a>
+                        или по телефону: <span class="news__phone">(4862) 40-99-80</span>.
+                    </li>
+                    <li class="news__link">
+                        для юридических лиц по электронной почте: <a href="#"
+                            class="news__mail-link">nedvijimost@orel.ru</a>
+                        или по телефону: <span class="news__phone">(4862) 40-99-90</span>.
+                    </li>
+                </ul>
+                <p class="news__text">
+                    В случае невозможности удаленного оформления заказов и получения документов возможно
+                    обратиться лично в БУ ОО «МР БТИ» в специализированное окно, расположенного рядом с входом в
+                    учреждение.
+                </p>
+                <p class="news__text news__text_bold">
+                    Примерные формы обращений
+                </p>
+                <ul class="news__list">
+                    <li><a href="#" class="news__text-link">Примерная форма Заявления физ.лица</a></li>
+                    <li><a href="#" class="news__text-link">Примерная форма Заявления юридические.лица</a></li>
+                </ul>
+            </section>
+
+            <!--Новости-->
+            <section class="news-info">
+                <div class="news-info__title">
+                    <a href="#">
+                        <h1>Новости</h1>
+                    </a>
+                </div>
+                <div class="news-info__item">
+                    <a href="#" class="news-info__text">
+                        <p>Прием граждан</p>
+                    </a>
+                    <p class="news-info__date">08.12.2020</p>
+                </div>
+                <div class="news-info__item">
+                    <a href="#" class="news-info__text">
+                        <p>Важная информация!</p>
+                    </a>
+                    <p class="news-info__date">27.03.2020</p>
+                </div>
+                <div class="news-info__item">
+                    <a href="#" class="news-info__text">
+                        <p>Отменяется прием заявок БУ ОО «МР БТИ»</p>
+                    </a>
+                    <p class="news-info__date">06.09.2019</p>
+                </div>
+                <div class="news-info__item">
+                    <a href="#" class="news-info__text">
+                        <p>Проведено очередное выездное совещание по обсуждению промежуточных отчетных данных по
+                            государственной кадастровой оценке</p>
+                    </a>
+                    <p class="news-info__date">23.07.2019</p>
+                </div>
+
+                <div class="news-info__item">
+                    <a href="#" class="news-info__text">
+                        <p>Информация по приему заявок</p>
+                    </a>
+                    <p class="news-info__date">15.07.2019</p>
+                </div>
+            </section>
+        </div>
+
+        <!--Слайдер-->
+        <div class="slider">
+            <div class="slider__img">
+                <div id="slide-02" class="slider__info-for-img slider__info-for-img_img02">
+                    <a href href="#">
+                        <img src="img/02.jpg" alt="">
+                        <h1>Государственная кадастровая оценка</h1>
+                        <p>Государственная кадастровая оценка на территории Орловской области будет проводиться
+                            Бюджетным учреждением Орловской области «Межрегиональное бюро технической
+                            инвентаризации».
+                        </p>
+                        <p>Информация по телефону: <span>(4862) 40-99-75</span>.</p>
+                    </a>
+                </div>
+
+                <div id="slide-03" class="slider__info-for-img slider__info-for-img_img03">
+                    <a href="#">
+                        <img src="img/03.jpg" alt="">
+                        <h1>Межевание участков</h1>
+                        <h2>от 2 500₽</h2>
+                        <p>Выполним межевание границ Вашего земельного участка с изготовлением землеустроительного дела,
+                            сформируем необходимый пакет документов. Раздел участков, выделение части, внесение
+                            изменений в границы участка. Уточняйте подробности по номеру <span>(4862) 40-99-88.</span>
+                        </p>
+                    </a>
+                </div>
+
+                <div id="slide-04" class="slider__info-for-img slider__info-for-img_img04">
+                    <a href="#">
+                        <img src="img/04.jpg" alt="">
+                        <h1>Технический план</h1>
+                        <h2>от 1500₽</h2>
+                        <p>Стоимость услуг по изготовлению технического плана на жилой фонд (квартиры, жилые дома) - от
+                            1500₽.</p>
+                        <p>Срок изготовления технического плана — 10 дней. В случае необходимости срочного изготовления
+                            стоимость может быть увеличена.</p>
+                        <p>Окончательную стоимость со всеми пошлинами и сборами уточняйте по единому номеру <span>(4862)
+                                40-99-88.</span></p>
+                    </a>
+                </div>
+
+                <div id="slide-05" class="slider__info-for-img slider__info-for-img_img05">
+                    <a href="#">
+                        <img src="img/05.jpg" alt="">
+                        <h1>Инвентаризация недвижимости</h1>
+                        <h2>от 50₽ за м<sup>2</sup></h2>
+                        <p>В стоимость работ входит техническая инвентаризация(обмеры) объекта недвижимости и
+                            изготовление следующих документов:</p>
+                        <ol>
+                            <li>Технический план (на бумажном и в электронном носителе)</li>
+                            <li>Поэтажные планы</li>
+                            <li> Экспликация</li>
+                        </ol>
+                        <p> Уточняйте стоимость технической инвентаризации вашего объекта недвижимости по единому номеру
+                            <span>(4862) 40-99-88</span>.
+                        </p>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="slider__nav">
+                <a href="#">
+                    <span id="prev">
+                        <span class="slider__prev-arrow slider__prev-arrow_top"></span>
+                        <span class="slider__prev-arrow slider__prev-arrow_bottom"></span>
+                    </span>
+                </a>
+                <a href="#">
+                    <span id="next">
+                        <span class="slider__next-arrow slider__next-arrow_top"></span>
+                        <span class="slider__next-arrow slider__next-arrow_bottom"></span>
+                    </span>
+                </a>
+
+                <div id="pager" class="slider__nav-dots"></div>
+            </div>
+        </div>
+
+        <!--Услуги-->
+        <div id="services" class="services">
+            <div class="services__title">
+                <h1>Услуги</h1>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-01.jpg" alt="01"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Государственная кадастровая оценка</h1>
+                </a>
+                <p class="service-card__text">Федеральный закон от 03.07.2016 N237-ФЗ «О государственной кадастровой
+                    оценке»</p>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-02.jpg" alt="02"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Обследование объектов недвижимости</h1>
+                </a>
+                <p class="service-card__text">Обследование объектов недвижимости по виду фактического использования
+                    зданий (строений) и нежилых помещений, расположенных на территории Орловской области.</p>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-03.jpg" alt="03"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Кадастровые работы</h1>
+                </a>
+                <p class="service-card__text">Подготовка пакета документов, необходимых для государственной регистрации
+                    недвижимости:</p>
+                <ul class="service-card__list">
+                    <li class="service-card__link">технический план;</li>
+                    <li class="service-card__link">межевой план земельного участка;</li>
+                    <li class="service-card__link">акт обследования.</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-04.jpg" alt="04"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Тех. инвентаризация</h1>
+                </a>
+                <p class="service-card__text">Технический паспорт требуется в случаях:</p>
+                <ul class="service-card__list">
+                    <li class="service-card__link">оформление наследственных прав;</li>
+                    <li class="service-card__link">залог;</li>
+                    <li class="service-card__link">совершение ипотечных сделок и др.</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-05.jpg" alt="05"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Геодезия и картография</h1>
+                </a>
+                <ul class="service-card__list">
+                    <li class="service-card__link">геодезические наблюдения за деформациями;</li>
+                    <li class="service-card__link">трассирование линейных объектов;</li>
+                    <li class="service-card__link">инженерно-гидрографические работы;</li>
+                    <li class="service-card__link">специальные геодезические и топографические работы при строительстве
+                        и реконструкции.</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-06.jpg" alt="06"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Экспертизы</h1>
+                </a>
+                <p class="service-card__text">Обследование объектов недвижимости по виду фактического использования
+                    зданий (строений) и нежилых помещений, расположенных на территории Орловской области.</p>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-07.jpg" alt="07"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Предоставление сведений</h1>
+                </a>
+                <p class="service-card__text">Предоставление учетно-технической документации в виде архивных копий,
+                    выписок и справок для физических и юридических лиц</p>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-08.jpg" alt="08"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Проектирование и планирование</h1>
+                </a>
+                <ul class="service-card__list">
+                    <li class="service-card__link">разработка конструктивных и объемно-планировочных решений;</li>
+                    <li class="service-card__link">проект планировки территории и проект межевания территории,
+                        необходимые для строительства, реконструкции площадных и линейных объектов недвижимости;</li>
+                    <li class="service-card__link">комплексные инженерные изыскания;</li>
+                    <li class="service-card__link">сопутствующие услуги в области архитектурно-строительного
+                        проектирования.</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-09.jpg" alt="09"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Землеустройство</h1>
+                </a>
+                <p class="service-card__text">Образование, изменение, восстановление объектов землеустройства.
+                    Установление, описание и внесение сведений в ГКН объектов землеустройства:</p>
+                <ul class="service-card__list">
+                    <li class="service-card__link">схемы землеустройства территории муниципальных образований,
+                        территории населённых пунктов, территориальных зон с особыми условиями использования территорий;
+                    </li>
+                    <li class="service-card__link">карта (план) объектов землеустройства.;</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-10.jpg" alt="10"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Перепланировка</h1>
+                </a>
+                <p class="service-card__text">Полный спектр услуг по переустройству и перепланировке любой сложности: от
+                    подготовки технической документации до разработки проекта и его согласования в органах местного
+                    самоуправления.</p>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-11.jpg" alt="11"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Регистрация прав собственности</h1>
+                </a>
+                <ul class="service-card__list">
+                    <li class="service-card__link">услуги по сопровождению процедур государственного кадастрового учета
+                        и регистрации права собственности;</li>
+                    <li class="service-card__link">сбор и подготовка документов для сделок с недвижимостью.</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <a href="#" class="service-card__img"><img src="img/service-12.jpg" alt="12"></a>
+                <a href="#" class="service-card__title">
+                    <h1>Расчет степени готовности</h1>
+                </a>
+                <p class="service-card__text">Расчета степени готовности проекта, рассчитанной суммарно в соответствии с
+                    готовностью конструктивных элементов всех объектов недвижимости, указанных в разрешении на
+                    строительство, выполненный специализированной организацией.</p>
+            </div>
+        </div>
+
+        <!--Подать заявку-->
+        <div id="request" class="request">
+            <div class="request__title">
+                <h1>Подать заявку</h1>
+            </div>
+            <div class="request-container">
+                <div class="request-card">
+                    <a href="#" class="request-card__img"><img src="img/request-01.jpg" alt="01"></a>
+                    <a href="#" class="request-card__title">
+                        <h1>Заявка на экспертизу</h1>
+                    </a>
+                </div>
+
+                <div class="request-card">
+                    <a href="#" class="request-card__img"><img src="img/request-02.jpg" alt="02"></a>
+                    <a href="#" class="request-card__title">
+                        <h1>Заявка на перепланировки</h1>
+                    </a>
+                </div>
+
+                <div class="request-card">
+                    <a href="#" class="request-card__img"><img src="img/request-03.jpg" alt="03"></a>
+                    <a href="#" class="request-card__title">
+                        <h1>Заявка на техническую инвентаризацию</h1>
+                    </a>
+                </div>
+
+                <div class="request-card">
+                    <a href="#" class="request-card__img"><img src="img/request-04.jpg" alt="04"></a>
+                    <a href="#" class="request-card__title">
+                        <h1>Заявка на энергоаудит</h1>
+                    </a>
+                </div>
+
+                <div class="request-card">
+                    <a href="#" class="request-card__img"><img src="img/request-05.jpg" alt="05"></a>
+                    <a href="#" class="request-card__title">
+                        <h1>Заявка на кадастровые работы</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Филлиалы-->
+        <div id="branches" class="branches">
+            <div class="branches__title">
+                <h1>Информация о филиалах</h1>
+            </div>
+
+            <div class="branches__items">
+                <div class="branches__column">
+                    <h1 class="branches__column-title">Филиалы</h1>
+                    <ul class="branches__list">
+                        <li class="branches__list-item"><a href="#">Орловский</a></li>
+                    </ul>
+                </div>
+
+                <div class="branches__column">
+                    <h1 class="branches__column-title">Отделения</h1>
+                    <ul class="branches__list">
+                        <li class="branches__list-item"><a href="#">Болховское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Верховское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Глазуновское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Дмитровское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Колпнянское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Ливенское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Мценское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Свердловское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Троснянское отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Урицкое отделение</a></li>
+                        <li class="branches__list-item"><a href="#">Кромское отделение</a></li>
+                    </ul>
+                </div>
+
+                <div class="branches__column">
+                    <h1 class="branches__column-title">Офисы</h1>
+                    <ul class="branches__list">
+                        <li class="branches__list-item"><a href="#">Покровский район</a></li>
+                        <li class="branches__list-item"><a href="#">Знаменский район</a></li>
+                        <li class="branches__list-item"><a href="#">Новодеревеньковский район</a></li>
+                        <li class="branches__list-item"><a href="#">Залегощенский район</a></li>
+                        <li class="branches__list-item"><a href="#">Новосильский район</a></li>
+                        <li class="branches__list-item"><a href="#">Корсаковский район</a></li>
+                        <li class="branches__list-item"><a href="#">Краснозоренский район</a></li>
+                        <li class="branches__list-item"><a href="#">Малоархангельский район</a></li>
+                        <li class="branches__list-item"><a href="#">Сосковский район</a></li>
+                        <li class="branches__list-item"><a href="#">Шаблыкинский район</a></li>
+                        <li class="branches__list-item"><a href="#">Хотынецкий район</a></li>
+                        <li class="branches__list-item"><a href="#">Новосильский район (пгт. Новосиль)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!--О БТИ-->
+        <div id="info-organization" class="info-organization">
+            <h1 class="info-organization__title">О Бти</h1>
+
+            <span class="info-organization__text info-organization__text_bold">
+                БУ ОО «МР БТИ» — современное предприятие, осуществляющее деятельность в сфере недвижимого имущества в
+                соответствии с потребностями заказчика и его интересами
+            </span>
+
+            <div class="info-organization__blocks">
+                <div class="info-organization__block">
+                    <h1 class="info-organization__block-title">Преимущества предприятия:</h1>
+                    <ul class="info-organization__list">
+                        <li class="info-organization__list-item">статус государственного предприятия;</li>
+                        <li class="info-organization__list-item">мощный информационный ресурс, как единственный
+                            официальный
+                            источник объективных сведений об объектах недвижимости, зданиях и сооружениях;</li>
+                        <li class="info-organization__list-item">сильный кадровый состав специалистов предприятия;</li>
+                        <li class="info-organization__list-item">наличие режимно-секретного органа;</li>
+                        <li class="info-organization__list-item">опыт работы на режимных объектах;</li>
+                        <li class="info-organization__list-item">мощная материально- техническая база (лицензионные
+                            программы, современное оборудование, транспортное обеспечение);</li>
+                        <li class="info-organization__list-item">большой опыт работы в сфере подготовки документов для
+                            оформления прав на объекты недвижимого имущества;</li>
+                        <li class="info-organization__list-item">разветвленная сеть подразделений предприятия -34
+                            структурных подразделения;</li>
+                        <li class="info-organization__list-item">возможность выполнения крупных заказов в максимально
+                            короткие сроки;</li>
+                        <li class="info-organization__list-item">опыт работы предприятия по системе «одного окна»;</li>
+                        <li class="info-organization__list-item">юридическое сопровождение документов и опыт работы по
+                            введению в оборот бесхозяйного имущества;</li>
+                        <li class="info-organization__list-item">модернизированная в 2012—2014 гг. производственная
+                            база:
+                        </li>
+                        <li class="info-organization__list-item">100% лицензионное программное обеспечение,
+                            соответствующее
+                            современным требованиям;</li>
+                        <li class="info-organization__list-item">полностью обновлен парк электронно-вычислительного
+                            оборудования;</li>
+                        <li class="info-organization__list-item">в наличии — 25 новейших GPS приемников.</li>
+                    </ul>
+
+                    <p class="info-organization__text">Работая «от оборота», предприятие оказывает <span
+                            class="info-organization__text_bold">услуги по региональным
+                            расценкам со скидкой от 10% до 70%</span>, в зависимости от сроков исполнения, объемов
+                        выполняемых услуг,
+                        сложности объектов.</p>
+                </div>
+
+                <div class="info-organization__block-row">
+                    <div class="info-organization__block">
+                        <h1 class="info-organization__block-title">География услуг:</h1>
+                        <ul class="info-organization__list">
+                            <li class="info-organization__list-item">техническая инвентаризация — аккредитация в
+                                субъектах
+                                РФ:
+                                Орловская, Брянская, Московская области;</li>
+                            <li class="info-organization__list-item">остальные виды услуг и лицензированная
+                                геодезическая
+                                деятельность — по всей территории РФ.</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-organization__block">
+                        <h1 class="info-organization__block-title">Опыт работы:</h1>
+                        <ul class="info-organization__list">
+                            <li class="info-organization__list-item">имеем опыт успешной и результативной работы с
+                                крупными
+                                имущественными комплексами (ОАО РЖД, ОАО «Газпром», ООО «Межрегионгаз», РАО ЕЭС.),
+                                объектами
+                                городской инфраструктуры (водопроводные, канализационные сети, линии электрического
+                                освещения и
+                                т. д.), сложными протяженными объектами (оптико-волоконные сети, объекты газового
+                                хозяйствами,
+                                дорожной инфраструктуры, объекты нефте и газодобычи, транспортировки, переработки и т.
+                                д.).
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="https://rosreestr.gov.ru/site/" target="_blanc" class="info-organization__link"><img
+                            src="img/link-img-01.png" alt="Росреестр"></a>
+                    <a href="https://www.roscadastre.ru/" target="_blanc" class="info-organization__link"><img
+                            src="img/link-img-02.png" alt="Кадастровые инженеры"></a>
+                    <a href="https://www.gosuslugi.ru/" target="_blanc" class="info-organization__link"><img
+                            src="img/link-img-03.png" alt="Госуслуги"></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Контакты-->
+        <div id="contacts" class="contacts">
+            <h1 class="contacts_title">Контактная информация</h1>
+
+            <div class="contacts__info">
+                <p class="contacts__text"><span class="contacts__text_bold">Юридический адрес: </span>302028, г. Орёл,
+                    ул.
+                    Ленина, 25.</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Электронный адрес: </span><a
+                        href="#">nedvijimost@orel.ru</a></p>
+            </div>
+
+            <div class="contacts__phones">
+                <h1 class="contacts__block-title">Телефоны:</h1>
+                <ul class="contacts__phones-list contacts__text">
+                    <li class="contacts__phones-list-item">Приёмная руководителя: +7 (4862) 40-99-99 (факс)</li>
+                    <li class="contacts__phones-list-item">Канцелярия: +7 (4862) 40-99-88</li>
+                    <li class="contacts__phones-list-item">Главный бухгалтер: +7 (4862) 40-99-95</li>
+                    <li class="contacts__phones-list-item">Приём физических лиц: +7 (4862) 40-99-80</li>
+                    <li class="contacts__phones-list-item">Приём юридических лиц: +7 (4862) 40-99-90</li>
+                    <li class="contacts__phones-list-item">Отдел государственной кадастровой оценки: +7 (4862) 40-99-89
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts__hi">
+                <h1 class="contacts__block-title">Мы рады вас видеть!</h1>
+                <p class="contacts__text">Понедельник — четверг с 08.30 — 17.30, перерыв с 13.00 — 13.45 (Орловский
+                    филиал работает без перерыва)</p>
+                <p class="contacts__text">Пятница с 08.30 — 16.15, перерыв с 13.00 — 13.45</p>
+                <p class="contacts__text contacts__text_bold">Суббота, воскресенье — выходной</p>
+            </div>
+
+            <div class="contacts__requisites">
+                <h1 class="contacts__block-title">Реквизиты</h1>
+                <p class="contacts__text"><span class="contacts__text_bold">Полное наименование организации:
+                    </span>Бюджетное учреждение Орловской области «Межрегиональное бюро технической инвентаризации»</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Сокращенное наименование организации:
+                    </span>БУ ОО «МР БТИ»</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Организационно-правовая форма:
+                    </span>Бюджетное учреждение</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Почтовый адрес: </span>302028 Российская
+                    Федерация, Орловская область, г. Орел, ул. Ленина, дом 25</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Директор БУ ОО «МР БТИ»: </span>Подрезов
+                    Сергей Николаевич</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ИНН: </span>5753069882</p>
+                <p class="contacts__text"><span class="contacts__text_bold">КПП: </span> 575301001</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОГРН: </span>185749001349</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКПО: </span>27759948</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКОНХ: </span>83000; 85200</p>
+                <p class="contacts__text"><span class="contacts__text_bold">БИК: </span>045402001<br>УФК по Орловской
+                    области (БУ ОО «МР БТИ» л/с 20546Z81140)</p>
+                <p class="contacts__text"><span class="contacts__text_bold">Р/с: </span>40601810645251000029</p>
+                <p class="contacts__text"><span class="contacts__text_bold">К/с: </span>30101810300000000601</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКВЭД: </span>84.11.4; 68.32</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКАТО: </span>54401369000</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКФС/ОКОПФ: </span>13/75203</p>
+                <p class="contacts__text"><span class="contacts__text_bold">ОКОГУ: </span>2300280</p>
+            </div>
+
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aab753fa1c37033d85e33a17321fbc25622c09f9e3b6f3ad3d0c6263fbc23ddbc&amp;width=1100&amp;height=367&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="footer__text">© Бюджетное Учреждение Орловской области «Межрегиональное бюро технической
+                инвентаризации»</p>
+            <p class="footer__text">телефон \ факс приёмной: +7 (4862) 40-99-88</p>
+            <p class="footer__text">Отправляя любую форму на сайте, вы соглашаетесь с <a href="#"
+                    class="footer__link">Политикой конфиденциальности</a>.</p>
+        </footer>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+    
+
+
